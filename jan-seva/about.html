@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Jan Seva Foundation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background: #f5f5f5;
+      align-items: center;
+    }
+
+    .about-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .about-content {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .about-content h2 {
+      color: #000;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .about-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .highlights {
+      background: #fff;
+      padding: 30px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .highlight-box {
+      flex: 1 1 250px;
+      background: #000;
+      color: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .highlight-box h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .highlight-box p {
+      font-size: 16px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .footer-column {
+      flex: 1 1 200px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column ul li a {
+      color: #ccc;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #444;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>About Jan Seva Foundation</h1>
+    <p>Empowering Lives, One Step at a Time</p>
+  </header>
+
+  <section class="about-section">
+    <div class="about-image">
+      <img src="images/our.jpg" alt="NGO Work">
+    </div>
+    <div class="about-content">
+      <h2>Our Journey</h2>
+      <p>Founded in 2020, Jan Seva Foundation is a non-profit committed to transforming the lives of underprivileged communities through education, healthcare, and women empowerment. Our goal is to ensure that every individual has access to a better life and equal opportunities.</p>
+      <p>With the help of volunteers and donors, we’ve reached thousands of families across India, providing support during times of crisis and creating long-lasting impact.</p>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <div class="highlight-box">
+      <h3>10K+</h3>
+      <p>Children Educated</p>
+    </div>
+    <div class="highlight-box">
+      <h3>25K+</h3>
+      <p>People Received Healthcare</p>
+    </div>
+    <div class="highlight-box">
+      <h3>2K+</h3>
+      <p>Women Empowered</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>ABOUT US</h3>
+        <ul>
+          <li><a href="#">About Jan Seva</a></li>
+          <li><a href="#">Impact</a></li>
+          <li><a href="#">Reach & Presence</a></li>
+          <li><a href="#">Milestones</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>OUR WORK</h3>
+        <ul>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Livelihood</a></li>
+          <li><a href="#">Women Empowerment</a></li>
+          <li><a href="#">Disaster Relief</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>CAMPAIGNS</h3>
+        <ul>
+          <li><a href="#">Shiksha Abhiyan</a></li>
+          <li><a href="#">Health First</a></li>
+          <li><a href="#">She Can Fly</a></li>
+          <li><a href="#">Swabhiman</a></li>
+          <li><a href="#">Rozgar Mission</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>CONTACT</h3>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Jan Seva Foundation. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+
+</html>

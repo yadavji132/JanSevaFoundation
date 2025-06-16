@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Jan Seva Foundation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #111;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      color: #000;
+      font-size: 36px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .contact-info,
+    .contact-form {
+      flex: 1 1 450px;
+      background: #f7f7f7;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+      color: #000;
+      margin-bottom: 10px;
+      border-left: 5px solid #000;
+      padding-left: 10px;
+    }
+
+    .contact-info h3 {
+      margin-top: 15px;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #111;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin: 12px 0 6px;
+      font-weight: 600;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px;
+      border: 1px solid #aaa;
+      border-radius: 10px;
+      font-size: 15px;
+      background: #fff;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: #000;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      background: #000;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background: #222;
+    }
+
+    footer {
+      background: #111;
+      color: #eee;
+      margin-top: 60px;
+      padding-top: 40px;
+      font-size: 14px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .footer-column {
+      flex: 1 1 180px;
+      margin: 10px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li a {
+      color: #ccc;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+    .footer-contact {
+      border-top: 1px solid #444;
+      margin-top: 30px;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .contact-info p {
+      color: #ccc;
+    }
+
+    .newsletter-form {
+      max-width: 300px;
+    }
+
+    .newsletter-form label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block;
+      color: #fff;
+    }
+
+    .newsletter-form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .newsletter-form button {
+      width: 100%;
+      padding: 10px;
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .social-icons a {
+      margin-right: 10px;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      background: #000;
+      text-align: center;
+      padding: 15px;
+      color: #999;
+      font-size: 13px;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container, .footer-contact {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-hands-helping"></i> Contact Jan Seva Foundation</h1>
+  </header>
+
+  <main class="contact-container">
+    <section class="contact-info">
+      <h2><i class="fas fa-handshake"></i> Corporate Partnerships</h2>
+      <p><strong>Parul Sharma</strong> – 9266740073</p>
+      <p>Email: <a href="mailto:cp@jansevafoundation.org">cp@jansevafoundation.org</a></p>
+
+      <h2><i class="fas fa-donate"></i> Donation Related Queries</h2>
+      <h3>For New Donors</h3>
+      <p><strong>Aakanksha Wahi</strong> – 7042128777</p>
+      <p>Email: <a href="mailto:donation@jansevafoundation.org">donation@jansevafoundation.org</a></p>
+
+      <h3>For Existing Donors</h3>
+      <p><strong>Parul Kapoor</strong> – 8882517003</p>
+      <p>Email: <a href="mailto:donorcare@jansevafoundation.org">donorcare@jansevafoundation.org</a></p>
+
+      <h2><i class="fas fa-envelope"></i> General Queries</h2>
+      <p>Email: <a href="mailto:info@jansevafoundation.org">info@jansevafoundation.org</a></p>
+    </section>
+
+    <section class="contact-form">
+      <h2><i class="fas fa-comment-dots"></i> Helpdesk</h2>
+      <p>For any grievance, suggestions and queries kindly write to us.</p>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" placeholder="Your Phone Number" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Starts Here -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>ABOUT US</h3>
+        <ul>
+          <li><a href="#">About Jan Seva</a></li>
+          <li><a href="#">Impact</a></li>
+          <li><a href="#">Reach & Presence</a></li>
+          <li><a href="#">Milestones</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>OUR WORK</h3>
+        <ul>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Livelihood</a></li>
+          <li><a href="#">Women Empowerment</a></li>
+          <li><a href="#">Disaster Relief</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>CAMPAIGNS</h3>
+        <ul>
+          <li><a href="#">Shiksha Abhiyan</a></li>
+          <li><a href="#">Health First</a></li>
+          <li><a href="#">She Can Fly</a></li>
+          <li><a href="#">Swabhiman</a></li>
+          <li><a href="#">Rozgar Mission</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>GET INVOLVED</h3>
+        <ul>
+          <li><a href="#">Individual Support</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Corporate Partnerships</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>RESOURCE CENTRE</h3>
+        <ul>
+          <li><a href="#">Annual Report</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Success Stories</a></li>
+          <li><a href="#">Media</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-contact">
+      <div class="footer-column">
+        <p><strong>Jan Seva Foundation</strong></p>
+        <p>123-A Community House, Sector 9, New Delhi - 110001, India</p>
+        <p>Phone: +91-11-12345678 | Email: info@jansevafoundation.org</p>
+      </div>
+
+      <div class="footer-column newsletter-box">
+        <div class="newsletter-form">
+          <label>Subscribe to Our Newsletter</label>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <button>SUBSCRIBE</button>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Jan Seva Foundation. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>

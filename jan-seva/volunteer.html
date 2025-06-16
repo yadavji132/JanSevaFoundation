@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Volunteer - Jan Seva Foundation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #111;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      background: #000;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .volunteer-section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .volunteer-section img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .volunteer-section h2 {
+      font-size: 28px;
+      margin-top: 30px;
+      color: #000;
+    }
+
+    .volunteer-section p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-top: 15px;
+    }
+
+    .volunteer-section ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    .volunteer-section li {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .cta {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .cta button {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta button:hover {
+      background: #333;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .footer-column {
+      flex: 1 1 180px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 12px;
+      color: #f1f1f1;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-column ul li a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-contact {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .newsletter-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .newsletter-form input {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+
+    .newsletter-form button {
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      color: white;
+      margin-right: 10px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+      border-top: 1px solid #333;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .volunteer-section h2 {
+        font-size: 22px;
+      }
+
+      .volunteer-section p {
+        font-size: 16px;
+      }
+
+      .footer-container {
+        flex-direction: column;
+      }
+
+      .footer-contact {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-users"></i> Join Us as a Volunteer</h1>
+    <p>Be the change for a better tomorrow</p>
+  </header>
+
+  <section class="volunteer-section">
+    <img src="images/volunteer.jpg" alt="Volunteers teaching children">
+
+    <h2>Why Volunteer with Jan Seva Foundation?</h2>
+    <p>Volunteering with us gives you the opportunity to create meaningful change in the lives of children and communities. Whether it's teaching underprivileged students, helping with campaigns, or contributing your skills — your time makes a lasting impact.</p>
+
+    <h2>What You Can Do</h2>
+    <p>You can participate in:</p>
+    <ul>
+      <li>📘 Teaching children</li>
+      <li>👩‍💻 Helping with social media</li>
+      <li>🎨 Creative work like design, video editing</li>
+      <li>🗣️ Spreading awareness in your local area</li>
+    </ul>
+
+    <div class="cta">
+      <p><strong>Want to be a volunteer?</strong></p>
+      <button onclick="location.href='contact.html#volunteer-form'">Apply Now</button>
+    </div>
+  </section>
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>ABOUT US</h3>
+        <ul>
+          <li><a href="#">About Jan Seva</a></li>
+          <li><a href="#">Impact</a></li>
+          <li><a href="#">Reach & Presence</a></li>
+          <li><a href="#">Milestones</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>OUR WORK</h3>
+        <ul>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Livelihood</a></li>
+          <li><a href="#">Women Empowerment</a></li>
+          <li><a href="#">Disaster Relief</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>CAMPAIGNS</h3>
+        <ul>
+          <li><a href="#">Shiksha Abhiyan</a></li>
+          <li><a href="#">Health First</a></li>
+          <li><a href="#">She Can Fly</a></li>
+          <li><a href="#">Swabhiman</a></li>
+          <li><a href="#">Rozgar Mission</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>GET INVOLVED</h3>
+        <ul>
+          <li><a href="#">Individual Support</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Corporate Partnerships</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>RESOURCE CENTRE</h3>
+        <ul>
+          <li><a href="#">Annual Report</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Success Stories</a></li>
+          <li><a href="#">Media</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-contact">
+      <div class="footer-column">
+        <p><strong>Jan Seva Foundation</strong></p>
+        <p>123-A Community House, Sector 9, New Delhi - 110001, India</p>
+        <p>Phone: +91-11-12345678 | Email: info@jansevafoundation.org</p>
+      </div>
+
+      <div class="footer-column newsletter-box">
+        <div class="newsletter-form">
+          <label>Subscribe to Our Newsletter</label>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <button>SUBSCRIBE</button>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Jan Seva Foundation. All rights reserved.
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+</body>
+</html>
